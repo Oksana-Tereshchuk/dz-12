@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Man Woman tests">
+    <parameter name="firstName" value="Peter"></parameter>
+    <parameter name="lastName" value="Nelson"></parameter>
+    <parameter name="age" value="65"></parameter>
+    <parameter name="partnerFirstName" value="Nelly"></parameter>
+    <parameter name="partnerLastName" value="Nelson"></parameter>
+    <test name="Test">
+        <packages>
+            <package name="ManWmomanTestcases"></package>
+        </packages>
+    </test>
+</suite>
